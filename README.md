@@ -48,6 +48,7 @@ year={2018},
 code = {https://github.com/gsig/PyVideoResearch},
 }
 ```
+and remember to cite the papers for the datasets/methods you use.
 
 ## Installation Instructions
 
@@ -95,10 +96,10 @@ The models are stored here: https://www.dropbox.com/sh/duodxydolzz5qfl/AAC0i70lv
 * ResNet1010 pre-trained on Charades
     * resnet101_rgb.pth.tar
     * resnet101_rgb_python3.pth.tar
-* I3D pre-trained on ImageNet (courtesy of https://github.com/piergiaj)
-    * aj_rgb_imagenet.pth
 * I3D pre-trained on ImageNet+Kinetics (courtesy of https://github.com/piergiaj)
-    * aj_rgb_kinetics.pth
+    * aj_rgb_imagenet.pth
+* I3D pre-trained on Charades (courtesy of https://github.com/piergiaj)
+    * aj_rgb_charades.pth
 
 * actor_observer_3d_charades_ego.py
 * actor_observer_charades_ego.py
@@ -135,3 +136,9 @@ The models are stored here: https://www.dropbox.com/sh/duodxydolzz5qfl/AAC0i70lv
     * anet2.pth.tar
     * anet2.txt
 
+## Infrequently Asked Questions
+
+* [Using external libraries in layers](https://github.com/gsig/PyVideoResearch/issues/10#issuecomment-480625062)
+* [Clip performance versus video performance and "why is this number lower?"](https://github.com/gsig/PyVideoResearch/issues/11#issuecomment-485630885)
+* [Why is Prec@5 > 100?](https://github.com/gsig/PyVideoResearch/issues/12#issuecomment-490217875)
+* [ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).](https://github.com/gsig/PyVideoResearch/issues/12#issuecomment-490217875)
